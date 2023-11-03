@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol, li {
+    list-style: none;
+    }
+
+a   {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: flex-end;
+    }
+
+header a i{
+    color: greenyellow;
+    font-size: 5px;
+    padding: 0.5em;
+
+}
+nav ul {
+    display: flex;
+    gap: 1.5em;
+
+}
+
+header nav ul li a{
+    color: red;
+}   
+
+p{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: 36px;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    header  {
+        display: flex;
+        background-color: blue;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+  }

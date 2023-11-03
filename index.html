@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <script>
+        src="https://kit.fontawesome.com/8d6b79b36f.js"
+        crossorigin="anonymous"
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+<header>
+    <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+    <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercademi.html">Acerca de mi</a></li>
+            <li>Trabajos</li>
+            <li>Servicios</li>
+            <li>Contactate</li>
+        </ul>
+    </nav>
+</header>
+<main id="seccion-principal">
+<section class="seccion-1">
+    <div class="acerca-de">
+        <h2>Acerca de mi</h2>
+        <p>Soy Eduardo, de Corrientes para el resto del mundo. </p>
+        <p>En esta pagina web, se mostraran distintas cosas.</p>
+    </div>
+    <div class="acerca-imagen">
+        <img src="img/josh-redd.jpg" alt="imagen portada" width="600" height="600">
+    </div>
+</section>
+<section class="seccion-2">
+    <img src="img/nba-logo.webp" alt="logo">
+</section>
+</main>
+<footer>
+    <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" />
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="pepe@gmail.com"
+          required
+        />
+      </div>
+      <div class="form-row">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+      </div>
+      <div class="form-row">
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+      <p class="alertas" id="alertas"></p>
+    </form>
+    <h3>Aca va algo, es el footer</h3>
+    <ul>
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>Twitter/X</li>
+    </ul>
+</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
